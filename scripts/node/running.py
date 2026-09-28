@@ -2,7 +2,7 @@ import os
 def call(**kwargs):
     """
     No arguments.
-    This cleans up the node environment of the current folder
+    Lists out if any node processes are currently running
     """
     commands = kwargs['args'] # list of things typed up after the command that called this script; seperated by unquoted spaces
     path = kwargs['path'].replace('/','\\')
